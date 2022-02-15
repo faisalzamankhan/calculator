@@ -57,7 +57,7 @@ num_array=[];
     this.picservice.getpicUrl()
     this.picservice.getImageUpdateListener().subscribe((pics)=>{
                   this.pic=pics 
-                  console.log(this.pic,"this is pic1")
+                  console.log(this.pic,"this is pic")
      });
      console.log("constructor")
 
